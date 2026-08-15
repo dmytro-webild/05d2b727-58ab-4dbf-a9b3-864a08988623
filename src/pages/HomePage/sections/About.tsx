@@ -11,27 +11,27 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutFeaturesSplit
-          tag="Artisanal Integrity"
-          title="Crafted to Last"
-          description="Every item in our collection is hand-selected from artisans who value quality over volume. We bridge the gap between tradition and modern necessity."
+          tag="Wholesale & Culinary Quality"
+          title="Premium Ingredients for Bakery Professionals"
+          description="We partner with trusted names in the industry to bring commercial kitchens dependable flours, dairy, fillings, and chocolate at competitive wholesale pricing."
           items={[
             {
               icon: CheckCircle,
-              title: "Handcrafted Excellence",
-              description: "Strict quality control on every batch.",
+              title: "Reliable Supply",
+              description: "Consistent stock and fast fulfillment so your kitchen never runs short.",
             },
             {
               icon: Sparkles,
-              title: "Curated Design",
-              description: "Pieces that tell a unique story.",
+              title: "Trusted Brands",
+              description: "Top-tier ingredients from suppliers the food service industry trusts.",
             },
             {
               icon: Award,
-              title: "Legacy Quality",
-              description: "Built to endure decades of use.",
+              title: "Wholesale Pricing",
+              description: "Competitive pricing built for volume bakery and restaurant orders.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/laptop-skincare-supplies_23-2147711561.jpg"
+          imageSrc="https://picsum.photos/seed/1533423214/1200/800"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
