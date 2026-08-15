@@ -7,21 +7,10 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "Home",
-    "href": "#home"
-  },
-  {
-    "name": "Catalog",
-    "href": "#catalog"
-  },
-  {
-    "name": "About",
-    "href": "#about"
-  },
-  { name: "About", href: "/about" },
-
-];
+    { name: "Home", href: "/" },
+    { name: "Catalog", href: "/catalog" },
+    { name: "About", href: "/about" },
+  ];
 
   return (
     <StyleProvider buttonVariant="expand" siteBackground="gridDots" heroBackground="cornerGlow">
