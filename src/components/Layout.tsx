@@ -1,0 +1,131 @@
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
+import NavbarInline from '@/components/ui/NavbarInline';
+import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
+import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
+import { Outlet } from 'react-router-dom';
+import { StyleProvider } from "@/components/ui/StyleProvider";
+
+export default function Layout() {
+  const navItems = [
+  {
+    "name": "Home",
+    "href": "#home"
+  },
+  {
+    "name": "Catalog",
+    "href": "#catalog"
+  },
+  {
+    "name": "Support",
+    "href": "#faq"
+  },
+  {
+    "name": "About",
+    "href": "#about"
+  },
+  {
+    "name": "Metrics",
+    "href": "#metrics"
+  },
+  {
+    "name": "Testimonials",
+    "href": "#testimonials"
+  },
+  {
+    "name": "Social",
+    "href": "#social"
+  }
+];
+
+  return (
+    <StyleProvider buttonVariant="expand" siteBackground="gridDots" heroBackground="cornerGlow">
+      <SiteBackgroundSlot />
+      <SectionErrorBoundary name="navbar">
+        <NavbarInline
+      logo="Diaco's"
+      ctaButton={{
+        text: "Contact",
+        href: "#contact",
+      }}
+     navItems={navItems} />
+      </SectionErrorBoundary>
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <SectionErrorBoundary name="footer">
+        <FooterSimpleMedia
+      brand="Diaco's Supply"
+      columns={[
+        {
+          title: "Store",
+          items: [
+            {
+              label: "All Products",
+              href: "#catalog",
+            },
+            {
+              label: "New Arrivals",
+              href: "#",
+            },
+            {
+              label: "Sale",
+              href: "#",
+            },
+          ],
+        },
+        {
+          title: "Company",
+          items: [
+            {
+              label: "About",
+              href: "#about",
+            },
+            {
+              label: "Careers",
+              href: "#",
+            },
+            {
+              label: "Blog",
+              href: "#",
+            },
+          ],
+        },
+        {
+          title: "Support",
+          items: [
+            {
+              label: "FAQs",
+              href: "#faq",
+            },
+            {
+              label: "Privacy",
+              href: "#",
+            },
+            {
+              label: "Shipping",
+              href: "#",
+            },
+          ],
+        },
+      ]}
+      copyright="© 2024 Diaco's Supply. All rights reserved."
+      links={[
+        {
+          label: "Instagram",
+          href: "#",
+        },
+        {
+          label: "Twitter",
+          href: "#",
+        },
+        {
+          label: "Pinterest",
+          href: "#",
+        },
+      ]}
+      imageSrc="http://img.b2bpic.net/free-photo/still-life-vintage-objects_23-2150244573.jpg"
+    />
+      </SectionErrorBoundary>
+    </StyleProvider>
+  );
+}
