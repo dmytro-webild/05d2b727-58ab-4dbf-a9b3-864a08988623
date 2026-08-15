@@ -18,7 +18,9 @@ export default function Layout() {
   {
     "name": "About",
     "href": "#about"
-  }
+  },
+  { name: "About", href: "/about" },
+
 ];
 
   return (
