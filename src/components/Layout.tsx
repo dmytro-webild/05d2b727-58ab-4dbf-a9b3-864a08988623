@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="Diaco's"
+      logo="Diacos Restaurant Supply"
       ctaButton={{
         text: "Contact",
         href: "#contact",
