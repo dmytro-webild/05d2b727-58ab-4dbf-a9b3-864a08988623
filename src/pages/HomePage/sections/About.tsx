@@ -31,7 +31,7 @@ export default function AboutSection(): React.JSX.Element {
               description: "Competitive pricing built for volume bakery and restaurant orders.",
             },
           ]}
-          imageSrc="https://picsum.photos/seed/1533423214/1200/800"
+          imageSrc="https://picsum.photos/seed/297973497/1200/800"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
