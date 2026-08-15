@@ -19,7 +19,14 @@ const NavbarInline = ({ logo, navItems, ctaButton }: NavbarInlineProps) => {
   return (
     <nav data-section="navbar" className="fixed z-1000 top-5 left-1/2 -translate-x-1/2 w-content-width">
       <div className="flex items-center justify-between p-2 xl:p-3 2xl:p-4 rounded backdrop-blur-sm card">
-        <a href="/" className="pl-2 text-xl font-medium text-foreground">{logo}</a>
+        <a href="/" className="flex items-center gap-2.5 pl-2 text-xl font-medium text-foreground">
+          <img
+            src="http://img.b2bpic.net/free-photo/close-up-arrangement-modern-vases_23-2149646558.jpg"
+            alt="Logo"
+            className="w-8 h-8 rounded-full object-cover shrink-0"
+          />
+          <span>{logo}</span>
+        </a>
 
         <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-6">
           {navItems.map((item) => (
