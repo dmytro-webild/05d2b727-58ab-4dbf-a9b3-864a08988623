@@ -29,7 +29,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleMedia
-      brand="Diaco's Supply"
+      brand="Diacos Restaurant Supply Group"
       columns={[
         {
           title: "Store",
@@ -83,7 +83,7 @@ export default function Layout() {
           ],
         },
       ]}
-      copyright="© 2024 Diaco's Supply. All rights reserved."
+      copyright="© 2024 Diacos Restaurant Supply Group. All rights reserved."
       links={[
         {
           label: "Instagram",
