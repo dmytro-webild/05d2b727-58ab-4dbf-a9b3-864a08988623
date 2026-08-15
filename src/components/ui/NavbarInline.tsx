@@ -21,7 +21,7 @@ const NavbarInline = ({ logo, navItems, ctaButton }: NavbarInlineProps) => {
       <div className="flex items-center justify-between p-2 xl:p-3 2xl:p-4 rounded backdrop-blur-sm card">
         <a href="/" className="flex items-center gap-2.5 pl-2 text-xl font-medium text-foreground">
           <img
-            src="https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786832301544-75rqcerv.png"
+            src="https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786832394052-d8n7hip1.png"
             alt="Diaco's Logo"
             className="w-8 h-8 rounded-full object-cover shrink-0"
           />
