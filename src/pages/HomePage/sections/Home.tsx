@@ -15,22 +15,22 @@ const secondaryButton = {
 };
 const items = [
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-working-with-flowers_23-2149591604.jpg"
+    imageSrc: "https://picsum.photos/seed/679327160/1200/800"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/vintage-desk-concept_23-2147791084.jpg"
+    imageSrc: "https://picsum.photos/seed/461309809/1200/800"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/close-up-arrangement-modern-vases_23-2149646558.jpg"
+    imageSrc: "https://picsum.photos/seed/1301325396/1200/800"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/grunge-style-metal-with-different-metallic-textures_1048-13647.jpg"
+    imageSrc: "https://picsum.photos/seed/232496995/1200/800"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/close-up-arrangement-modern-vases_23-2149646508.jpg"
+    imageSrc: "https://picsum.photos/seed/910576897/1200/800"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/cozy-autumn-composition-with-decorative-details-candles_169016-23374.jpg"
+    imageSrc: "https://picsum.photos/seed/1607010896/1200/800"
   }
 ];
 
@@ -53,11 +53,11 @@ const HomeInline = () => {
       <HeroBackgroundSlot />
       <div className="flex flex-col items-center gap-3 w-content-width mx-auto text-center">
         <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-          <p>{"Since 1984"}</p>
+          <p>{"Wholesale · Restaurant & Bakery Supply"}</p>
         </div>
 
         <TextAnimation
-          text={"Exquisite Supplies for Modern Life"}
+          text={"Everything Your Kitchen Needs, Ready to Order"}
           variant={"slide-up"}
           gradientText={true}
           tag="h1"
@@ -65,7 +65,7 @@ const HomeInline = () => {
         />
 
         <TextAnimation
-          text={"Discover a curated selection of artisanal goods, crafted with precision and passion for your home and lifestyle."}
+          text={"Premium flours, dairy, fillings, and chocolate for restaurants and bakeries that won't compromise on quality."}
           variant={"slide-up"}
           gradientText={false}
           tag="p"
