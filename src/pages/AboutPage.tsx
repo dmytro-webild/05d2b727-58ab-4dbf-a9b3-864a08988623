@@ -1,41 +1,24 @@
-import Button from "@/components/ui/Button";
-import HeroBackgroundSlot from "@/components/ui/HeroBackgroundSlot";
-import TextAnimation from "@/components/ui/TextAnimation";
-import ImageOrVideo from "@/components/ui/ImageOrVideo";
-import ScrollReveal from "@/components/ui/ScrollReveal";
-import FeaturesIconCards from "@/components/sections/features/FeaturesIconCards";
+// AUTO-GENERATED shell by per-section-migrate.
+// Section bodies live in the sibling sections/ folder (one file per section).
+// Edit those section files directly. Non-block content (wrappers,
+// non-inlinable sections) is preserved inline; extracted section blocks
+// become component refs.
 
-export default function AboutPage() {
+import React from 'react';
+import HeroSplitSection from './AboutPage/sections/HeroSplit';
+import AboutTextSplitSection from './AboutPage/sections/AboutTextSplit';
+import SocialProofMarqueeSection from './AboutPage/sections/SocialProofMarquee';
+import FeaturesIconCardsSection from './AboutPage/sections/FeaturesIconCards';
+import ContactCtaSection from './AboutPage/sections/ContactCta';
+
+export default function AboutPage(): React.JSX.Element {
   return (
-    <>
-      <div data-webild-section="HeroSplit"><section aria-label="Hero section" className="relative flex items-center h-fit md:h-svh pt-25 pb-20 md:py-0"><HeroBackgroundSlot /><div className="flex flex-col md:flex-row items-center gap-12 md:gap-20 w-content-width mx-auto"><div className="w-full md:w-1/2"><div className="flex flex-col items-center md:items-start gap-3"><div className="px-3 py-1 mb-1 text-sm card rounded w-fit"><p>Wholesale Culinary Supply</p></div><TextAnimation text="Quality Ingredients, Trusted by Restaurants and Bakeries" variant="slide-up" gradientText={true} tag="h1" className="text-7xl 2xl:text-8xl leading-[1.15] font-semibold text-center md:text-left text-balance" /><TextAnimation text="Diacos Restaurant Supply Group is a wholesale supplier of premium bakery and food-service ingredients — flours, dairy, fillings, glazes, and chocolate. We keep kitchens stocked with reliable products from trusted brands, backed by fast fulfillment and dedicated support." variant="slide-up" gradientText={false} tag="p" className="md:max-w-8/10 text-lg md:text-xl leading-snug text-center md:text-left text-balance" /><div className="flex flex-wrap max-md:justify-center gap-3 mt-2 md:mt-3"><Button text="View Catalog" href="/catalog" variant="primary" /><Button text="Contact Us" href="/contact" variant="secondary" animationDelay={0.1} /></div></div></div><ScrollReveal variant="slide-up" delay={0.2} className="w-full md:w-1/2 h-100 md:h-[65vh] md:max-h-[75svh] p-2 xl:p-3 2xl:p-4 card rounded overflow-hidden"><ImageOrVideo imageSrc="https://img.freepik.com/free-photo/pastry-chef-preparing-dough-bakery_23-2149121855.jpg" /></ScrollReveal></div></section></div>
-      <div data-webild-section="AboutTextSplit"><section aria-label="About section" className="py-20"><div className="flex flex-col gap-20 mx-auto w-content-width"><div className="flex flex-col md:flex-row gap-3 md:gap-15"><div className="w-full md:w-1/2"><TextAnimation text="Best Ingredients, Better Quality, Better Customers" variant="slide-up" gradientText={true} tag="h2" className="text-7xl 2xl:text-8xl leading-[1.15] font-semibold text-balance" /></div><div className="flex flex-col gap-2 w-full md:w-1/2"><TextAnimation key={0} text="We believe great food starts with great ingredients. That's why we partner with trusted names in the industry to bring restaurants and bakeries the flours, fillings, dairy, and chocolate they can depend on — at competitive wholesale prices, with the reliability commercial kitchens need." variant="slide-up" gradientText={false} tag="p" className="text-xl md:text-2xl leading-snug text-balance" /><div className="flex flex-wrap gap-3 mt-2 md:mt-3"><Button text="View Catalog" href="/catalog" variant="primary" /><Button text="Contact Team" href="/contact" variant="secondary" animationDelay={0.1} /></div></div></div><div className="w-full border-b border-foreground/5" /></div></section></div>
-      <div data-webild-section="SocialProofMarquee"><section aria-label="Social proof section" className="py-20"><div className="flex flex-col gap-8 md:gap-10"><div className="flex flex-col items-center gap-2 w-content-width mx-auto"><div className="px-3 py-1 mb-1 text-sm card rounded w-fit"><p>Trusted Suppliers</p></div><TextAnimation text="Industry Brands Commercial Kitchens Count On" variant="slide-up" gradientText={true} tag="h2" className="md:max-w-8/10 text-6xl 2xl:text-7xl leading-[1.15] font-semibold text-center text-balance" /><TextAnimation text="We partner with top culinary suppliers to bring commercial kitchens premium flours, chocolates, fillings, and dairy with guaranteed fast fulfillment." variant="slide-up" gradientText={false} tag="p" className="md:max-w-7/10 text-lg md:text-xl leading-snug text-center text-balance" /><div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3"><Button text="View Catalog" href="/catalog" variant="primary" /><Button text="Contact Sales" href="/contact" variant="secondary" animationDelay={0.1} /></div></div><ScrollReveal variant="slide-up" className="w-content-width mx-auto overflow-hidden mask-fade-x"><div className="flex w-max animate-marquee-horizontal" style={{"animationDuration":"45s"}}><div key={0} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Pillsbury (Premium Bakery Flours & Mixes)</span></div>
-<div key={1} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Philadelphia (Cream Cheese & Dairy Specialties)</span></div>
-<div key={2} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Puratos (Bakery, Patisserie & Chocolate)</span></div>
-<div key={3} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Henry & Henry (Fruit Fillings, Icings & Glazes)</span></div>
-<div key={4} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Pillsbury (Premium Bakery Flours & Mixes)</span></div>
-<div key={5} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Philadelphia (Cream Cheese & Dairy Specialties)</span></div>
-<div key={6} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Puratos (Bakery, Patisserie & Chocolate)</span></div>
-<div key={7} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Henry & Henry (Fruit Fillings, Icings & Glazes)</span></div>
-<div key={8} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Pillsbury (Premium Bakery Flours & Mixes)</span></div>
-<div key={9} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Philadelphia (Cream Cheese & Dairy Specialties)</span></div>
-<div key={10} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Puratos (Bakery, Patisserie & Chocolate)</span></div>
-<div key={11} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Henry & Henry (Fruit Fillings, Icings & Glazes)</span></div>
-<div key={12} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Pillsbury (Premium Bakery Flours & Mixes)</span></div>
-<div key={13} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Philadelphia (Cream Cheese & Dairy Specialties)</span></div>
-<div key={14} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Puratos (Bakery, Patisserie & Chocolate)</span></div>
-<div key={15} className="shrink-0 mx-3 px-5 py-3 rounded card"><span className="text-2xl font-semibold whitespace-nowrap opacity-75">Henry & Henry (Fruit Fillings, Icings & Glazes)</span></div></div></ScrollReveal></div></section></div>
-      <div data-webild-section="FeaturesIconCards"><FeaturesIconCards
-        tag="WHY DIACO'S"
-        title="Why Commercial Kitchens Trust Diaco's"
-        description="We keep your food service business running smoothly with reliable wholesale distribution and trusted culinary ingredients."
-        primaryButton={{"text":"View Catalog","href":"/catalog"}}
-        secondaryButton={{"text":"Contact Sales","href":"/contact"}}
-        features={[{"icon":"Truck","title":"Reliable Supply","description":"Consistent stock and fast fulfillment so your kitchen never runs short."},{"icon":"ShieldCheck","title":"Trusted Brands","description":"We only carry ingredients from suppliers the industry already trusts."},{"icon":"BadgePercent","title":"Wholesale Pricing","description":"Competitive pricing built for restaurants and bakeries ordering at volume."}]}
-        textAnimation="slide-up"
-      /></div>
-      <div data-webild-section="ContactCta"><section aria-label="Contact section" className="py-20"><div className="w-content-width mx-auto"><ScrollReveal variant="slide-up"><div className="flex flex-col items-center gap-8 md:gap-10 py-20 px-8 rounded card"><div className="flex flex-col items-center gap-2"><div className="px-3 py-1 mb-1 text-sm card rounded w-fit"><p>Commercial Supply</p></div><TextAnimation text="Ready to Stock Your Kitchen?" variant="slide-up" gradientText={true} tag="h2" className="md:max-w-8/10 text-5xl 2xl:text-6xl leading-[1.15] font-semibold text-center text-balance" /><div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3"><Button text="View Catalog" href="/catalog" variant="primary" /><Button text="Contact Sales" href="/contact" variant="secondary" animationDelay={0.1} /></div></div></div></ScrollReveal></div></section></div>
+<>
+      <HeroSplitSection />
+      <AboutTextSplitSection />
+      <SocialProofMarqueeSection />
+      <FeaturesIconCardsSection />
+      <ContactCtaSection />
     </>
   );
 }
