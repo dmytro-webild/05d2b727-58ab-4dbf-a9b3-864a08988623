@@ -8,7 +8,7 @@ export default function FeaturesIconCardsSection(): React.JSX.Element {
   return (
     <div data-webild-section="FeaturesIconCards"><FeaturesIconCards
             tag="WHY DIACOS RESTAURANT SUPPLY GROUP"
-            title="Why Commercial Kitchens Trust Diaco's"
+            title="Why Commercial Kitchens Trust Diacos Restaurant Supply"
             description="We keep your food service business running smoothly with reliable wholesale distribution and trusted culinary ingredients."
             primaryButton={{"text":"View Catalog","href":"/catalog"}}
             secondaryButton={{"text":"Contact Sales","href":"/contact"}}
