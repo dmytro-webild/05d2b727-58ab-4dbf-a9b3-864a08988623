@@ -20,7 +20,7 @@ export default function CatalogSection(): React.JSX.Element {
               description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-arrangement-modern-vases_23-2149646500.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842862033-pkvsgoc6.png",
               title: "Textiles",
               description: "Ethically sourced fabrics.",
             },
