@@ -16,38 +16,38 @@ export default function CatalogSection(): React.JSX.Element {
           items={[
             {
               imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842903795-faox9v3u.png",
-              title: "Baked Goods",
+              title: "",
               description: "",
             },
             {
               imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842862033-pkvsgoc6.png",
-              title: "Textiles",
-              description: "Ethically sourced fabrics.",
+              title: "",
+              description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-dining-table-arrangement_23-2150312214.jpg",
-              title: "Lighting",
-              description: "Ambient, warm glow.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842891176-3ynwbynj.png",
+              title: "",
+              description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-restoring-wooden-chair_23-2150062422.jpg",
-              title: "Decor",
-              description: "Statement accessories.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842834929-13gz2gmx.png",
+              title: "",
+              description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/ceramic-pottery-tools-still-life_23-2150197292.jpg",
-              title: "Tools",
-              description: "Utility meets design.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842939359-17bmy712.png",
+              title: "",
+              description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/still-life-beach-bag-ready-travel_23-2150440675.jpg",
-              title: "Storage",
-              description: "Organize in elegance.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842923464-azxbnfn7.png",
+              title: "",
+              description: "",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/empty-pots-near-bag-with-gardening-tools_23-2147714847.jpg",
-              title: "Seasonal",
-              description: "Limited batch arrivals.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842964795-f4z1ntv4.png",
+              title: "",
+              description: "",
             },
           ]}
           textAnimation="slide-up"
