@@ -113,37 +113,31 @@ const CatalogInline = () => {
           )}
         </div>
 
-        <div className="w-content-width mx-auto grid grid-cols-1 md:grid-cols-6 gap-3">
-          {items.map((item, index) => {
-            const content = (
-              <div className="relative h-80 xl:h-100 2xl:h-120 overflow-hidden">
-                <ImageOrVideo
-                  imageSrc={item.imageSrc}
-                  videoSrc={item.videoSrc}
-                  className="rounded group-hover:scale-105 transition-transform duration-500"
-                />
-
-                <div className="absolute inset-x-5 bottom-5 xl:inset-x-6 xl:bottom-6 2xl:inset-x-7 2xl:bottom-7 flex flex-col text-background">
-                  <span className="text-2xl font-semibold leading-snug truncate">{item.title}</span>
-                  <span className="text-base leading-snug truncate">{item.description}</span>
-                </div>
-              </div>
-            );
-
-            return (
-              <ScrollReveal key={index} variant="fade-blur" delay={staggerDelays[index]} className={cls("col-span-1 group", gridClasses[index])}>
-                {item.href ? (
-                  <a href={item.href} className="block overflow-hidden rounded">
-                    {content}
-                  </a>
-                ) : (
-                  <div className="overflow-hidden rounded">
-                    {content}
-                  </div>
-                )}
-              </ScrollReveal>
-            );
-          })}
+        <div id="grid" className="w-content-width mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Pies</div>
+            <h3 className="text-base font-semibold text-foreground">10&quot; Apple Pies Gardner</h3>
+            <div className="meta text-xs text-accent">SKU PIES-0006 · GARDNER · unit</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$64.33</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Pies</div>
+            <h3 className="text-base font-semibold text-foreground">10&quot; Blueberry Pie Gardner</h3>
+            <div className="meta text-xs text-accent">SKU PIES-0008 · unit</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$76.02</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Pies</div>
+            <h3 className="text-base font-semibold text-foreground">10&quot; Pumpkin Pie - Gardner</h3>
+            <div className="meta text-xs text-accent">SKU PIES-0012 · unit</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$60.13</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Pies</div>
+            <h3 className="text-base font-semibold text-foreground">9&quot; Gardner Cherry Pie</h3>
+            <div className="meta text-xs text-accent">SKU PIES-0013 · GARDNER · unit</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$82.53</div>
+          </div>
         </div>
       </div>
     </section>
