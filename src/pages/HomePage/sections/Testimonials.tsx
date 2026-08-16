@@ -2,57 +2,49 @@
 // file as the canonical source for the "testimonials" section.
 
 import React from 'react';
-import TestimonialOverlayCards from '@/components/sections/testimonial/TestimonialOverlayCards';
-import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
+import TextAnimation from "@/components/ui/TextAnimation";
+import ScrollReveal from "@/components/ui/ScrollReveal";
+
+const supplierLogos = [
+  "Pillsbury",
+  "Philadelphia",
+  "Puratos",
+  "Henry & Henry"
+];
 
 export default function TestimonialsSection(): React.JSX.Element {
   return (
-    <div id="testimonials" data-section="testimonials">
-        <SectionErrorBoundary name="testimonials">
-              <TestimonialOverlayCards
-          tag="Kind Words"
-          title="Stories from Our Community"
-          description="Trusted by discerning individuals worldwide."
-          testimonials={[
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/attractive-casully-dressed-young-latin-woman-sitting-windowsill-kitchen-holding-cell-phone-checking-newsfeed-via-social-network-typing-text-message-having-rest-technology-communication_344912-2094.jpg",
-              name: "Elena Ross",
-              role: "Designer",
-              company: "Studio N",
-              rating: 5,
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/influencer-holding-coffee-cup-recording-podcast-home-studio_482257-7797.jpg",
-              name: "Mark Vane",
-              role: "Architect",
-              company: "Vane Associates",
-              rating: 5,
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-bearded-man-with-cheerful-expression-pointing-thumb-his-girlfriend-sunglasses-while-telling-jokes_273609-6608.jpg",
-              name: "Sarah Lee",
-              role: "Collector",
-              company: "Independent",
-              rating: 5,
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-with-eyeglasses-holding-shopping-bags_23-2147823601.jpg",
-              name: "James K.",
-              role: "Chef",
-              company: "Bistro 4",
-              rating: 5,
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/young-people-modeling-photoshoot_273609-12739.jpg",
-              name: "Chloe B.",
-              role: "Stylist",
-              company: "Mode",
-              rating: 5,
-            },
-          ]}
-          textAnimation="slide-up"
-        />
-        </SectionErrorBoundary>
+    <div id="testimonials" data-webild-section="testimonials" data-section="testimonials" className="bg-background">
+      <div className="w-content-width mx-auto flex flex-col items-center text-center gap-8">
+        <ScrollReveal variant="slide-up">
+          <div className="px-3 py-1 text-sm card rounded w-fit mx-auto mb-3">
+            <p className="text-accent font-medium">Wholesale Quality</p>
+          </div>
+          <TextAnimation
+            text="Trusted by Restaurants and Bakeries"
+            variant="slide-up"
+            gradientText={false}
+            tag="h2"
+            className="text-4xl md:text-5xl font-bold text-foreground text-balance"
+          />
+          <p className="mt-4 text-lg md:text-xl text-accent max-w-content-width mx-auto text-balance">
+            We supply kitchens that won't compromise on quality — from independent bakeries to full-service restaurants.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal variant="fade-blur" delay={0.2}>
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mt-4">
+            {supplierLogos.map((brand, idx) => (
+              <div
+                key={idx}
+                className="card px-8 py-5 rounded-xl flex items-center justify-center font-bold text-xl md:text-2xl text-foreground tracking-wide shadow-sm"
+              >
+                {brand}
+              </div>
+            ))}
+          </div>
+        </ScrollReveal>
       </div>
+    </div>
   );
 }
