@@ -15,7 +15,7 @@ const secondaryButton = {
 };
 const items = [
   {
-    imageSrc: "https://picsum.photos/seed/679327160/1200/800"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786841679224-7toc4js8.png"
   },
   {
     imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786841547164-qbipz599.png"
