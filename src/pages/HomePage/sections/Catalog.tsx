@@ -15,9 +15,9 @@ export default function CatalogSection(): React.JSX.Element {
           description="Explore our curated categories, each representing a facet of refined modern living."
           items={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/women-s-day-still-life-with-makeup-jewelry_23-2149263160.jpg",
-              title: "Ceramics",
-              description: "Hand-turned clay pieces.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786842903795-faox9v3u.png",
+              title: "Baked Goods",
+              description: "",
             },
             {
               imageSrc: "http://img.b2bpic.net/free-photo/close-up-arrangement-modern-vases_23-2149646500.jpg",
