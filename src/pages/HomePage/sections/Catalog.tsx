@@ -138,6 +138,45 @@ const CatalogInline = () => {
             <div className="meta text-xs text-accent">SKU PIES-0013 · GARDNER · unit</div>
             <div className="price text-lg font-bold text-foreground mt-auto">$82.53</div>
           </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2 relative" data-cat="Spices &amp; Seasonings" data-search="50# table salt bags salt-0001 us salt">
+            <div className="flex items-center justify-between">
+              <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Spices &amp; Seasonings</div>
+              <span className="est-badge bg-accent/20 text-accent text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">Est.</span>
+            </div>
+            <h3 className="text-base font-semibold text-foreground">50# Table Salt Bags</h3>
+            <div className="meta text-xs text-accent">SKU SALT-0001 · US SALT · 50lb bag/pail</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$24.50</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2 relative" data-cat="Spices &amp; Seasonings" data-search="pretzel salt m 50# bag salt-0002 cargill">
+            <div className="flex items-center justify-between">
+              <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Spices &amp; Seasonings</div>
+              <span className="est-badge bg-accent/20 text-accent text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">Est.</span>
+            </div>
+            <h3 className="text-base font-semibold text-foreground">Pretzel Salt M 50# Bag</h3>
+            <div className="meta text-xs text-accent">SKU SALT-0002 · CARGILL · 50lb bag/pail</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$24.50</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2 relative" data-cat="Spices &amp; Seasonings" data-search="purified sea salt 50# bag salt-0003 ">
+            <div className="flex items-center justify-between">
+              <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Spices &amp; Seasonings</div>
+              <span className="est-badge bg-accent/20 text-accent text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">Est.</span>
+            </div>
+            <h3 className="text-base font-semibold text-foreground">Purified Sea Salt 50# Bag</h3>
+            <div className="meta text-xs text-accent">SKU SALT-0003 · 50lb bag/pail</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$24.50</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2" data-cat="Spices &amp; Seasonings" data-search="ground cinnamon 25# box spic-0011 ">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Spices &amp; Seasonings</div>
+            <h3 className="text-base font-semibold text-foreground">Ground Cinnamon 25# Box</h3>
+            <div className="meta text-xs text-accent">SKU SPIC-0011 · 25lb bag/pail</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$67.13</div>
+          </div>
+          <div className="product-card card p-5 rounded-lg flex flex-col gap-2" data-cat="Spices &amp; Seasonings" data-search="pumpkin pie spice 13oz spic-0012 ">
+            <div className="category text-xs font-semibold uppercase tracking-wider text-accent">Spices &amp; Seasonings</div>
+            <h3 className="text-base font-semibold text-foreground">Pumpkin Pie Spice 13Oz</h3>
+            <div className="meta text-xs text-accent">SKU SPIC-0012 · 13 oz</div>
+            <div className="price text-lg font-bold text-foreground mt-auto">$13.93</div>
+          </div>
         </div>
       </div>
     </section>
