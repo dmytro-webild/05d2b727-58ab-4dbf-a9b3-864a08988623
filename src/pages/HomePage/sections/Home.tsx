@@ -30,7 +30,7 @@ const items = [
     imageSrc: "https://picsum.photos/seed/910576897/1200/800"
   },
   {
-    imageSrc: "https://picsum.photos/seed/1607010896/1200/800"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786841780105-6ri8onhd.png"
   }
 ];
 
