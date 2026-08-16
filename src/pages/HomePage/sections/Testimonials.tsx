@@ -2,7 +2,6 @@
 // file as the canonical source for the "testimonials" section.
 
 import React from 'react';
-import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import TextAnimation from "@/components/ui/TextAnimation";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
@@ -15,7 +14,7 @@ const supplierLogos = [
 
 export default function TestimonialsSection(): React.JSX.Element {
   return (
-    <div id="testimonials" data-webild-section="testimonials" data-section="testimonials" className="py-16 md:py-24 bg-background">
+    <div id="testimonials" data-webild-section="testimonials" data-section="testimonials" className="bg-background">
       <div className="w-content-width mx-auto flex flex-col items-center text-center gap-8">
         <ScrollReveal variant="slide-up">
           <div className="px-3 py-1 text-sm card rounded w-fit mx-auto mb-3">
@@ -28,7 +27,7 @@ export default function TestimonialsSection(): React.JSX.Element {
             tag="h2"
             className="text-4xl md:text-5xl font-bold text-foreground text-balance"
           />
-          <p className="mt-4 text-lg md:text-xl text-accent max-w-2xl mx-auto text-balance">
+          <p className="mt-4 text-lg md:text-xl text-accent max-w-content-width mx-auto text-balance">
             We supply kitchens that won't compromise on quality — from independent bakeries to full-service restaurants.
           </p>
         </ScrollReveal>

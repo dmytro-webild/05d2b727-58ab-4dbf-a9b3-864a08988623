@@ -2,7 +2,6 @@
 // file as the canonical source for the "metrics" section.
 
 import React from 'react';
-import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import TextAnimation from "@/components/ui/TextAnimation";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { Check } from "lucide-react";
@@ -39,8 +38,8 @@ const valueCards = [
 
 export default function MetricsSection(): React.JSX.Element {
   return (
-    <div id="metrics" data-webild-section="metrics" data-section="metrics" className="py-16 md:py-24 bg-background">
-      <div className="w-content-width mx-auto flex flex-col gap-12">
+    <div id="metrics" data-webild-section="metrics" data-section="metrics" className="bg-background">
+      <div className="w-content-width mx-auto flex flex-col">
         <ScrollReveal variant="slide-up">
           <div className="flex flex-col items-center text-center gap-3">
             <div className="px-3 py-1 text-sm card rounded w-fit">
@@ -53,7 +52,7 @@ export default function MetricsSection(): React.JSX.Element {
               tag="h2"
               className="text-4xl md:text-5xl font-bold text-foreground text-balance"
             />
-            <p className="text-lg md:text-xl text-accent max-w-2xl text-balance">
+            <p className="text-lg md:text-xl text-accent max-w-content-width text-balance">
               Every order is backed by industry expertise, premium sourcing, and dependable wholesale service.
             </p>
           </div>
@@ -62,7 +61,7 @@ export default function MetricsSection(): React.JSX.Element {
         <ScrollReveal variant="slide-up" delay={0.2}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {valueCards.map((card, idx) => (
-              <div key={idx} className="card p-6 md:p-8 rounded-2xl flex flex-col justify-between gap-6 shadow-sm border border-border/40">
+              <div key={idx} className="card p-6 md:p-8 rounded-theme flex flex-col justify-between gap-6 shadow-sm border border-border/40">
                 <div className="flex flex-col gap-3">
                   <h3 className="text-2xl font-bold text-foreground">{card.title}</h3>
                   <p className="text-foreground/90 font-medium leading-relaxed">{card.description}</p>
