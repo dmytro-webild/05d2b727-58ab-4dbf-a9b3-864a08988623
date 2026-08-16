@@ -98,7 +98,7 @@ export default function Layout() {
           href: "#",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/still-life-vintage-objects_23-2150244573.jpg"
+      imageSrc="https://picsum.photos/seed/1622822201/1200/800"
     />
       </SectionErrorBoundary>
     </StyleProvider>
