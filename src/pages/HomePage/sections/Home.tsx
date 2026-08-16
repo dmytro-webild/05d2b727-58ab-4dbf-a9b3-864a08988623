@@ -18,7 +18,7 @@ const items = [
     imageSrc: "https://picsum.photos/seed/679327160/1200/800"
   },
   {
-    imageSrc: "https://picsum.photos/seed/461309809/1200/800"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3Hy0hX45s3VxHQbTscSlYSkC3nn/uploaded-1786841547164-qbipz599.png"
   },
   {
     imageSrc: "https://picsum.photos/seed/1301325396/1200/800"
